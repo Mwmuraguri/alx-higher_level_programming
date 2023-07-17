@@ -2,14 +2,14 @@
 """Defines unittests for base.py.
 
 Unittest classes:
-    TestBaseInstantiation - line 21
-    TestBaseToJsonString - line 108
-    TestBaseSaveToFile - line 154
-    TestBaseFromJsonString - line 232
-    TestBaseCreate - line 286
-    TestBaseLoadFromFile - line 338
-    TestBaseSaveToFileCsv - line 404
-    TestBaseLoadFromFileCsv - line 482
+    TestBaseinstantiation - line 21
+    TestBasetojsonstring - line 108
+    TestBasesavetofile - line 154
+    TestBasefromjsonstring - line 232
+    TestBasecreate - line 286
+    TestBaseloadfromfile - line 338
+    TestBasesavetofilecsv - line 404
+    TestBaseloadfromfilecsv - line 482
 """
 import os
 import unittest

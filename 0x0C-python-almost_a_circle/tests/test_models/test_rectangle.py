@@ -6,8 +6,8 @@ Unittest classes:
     TestRectangleinstantiation - line 25
     TestRectanglewidth - line 114
     TestRectangleheight - line 190
-    TestRectanglex - line 262
-    TestRectangley - line 334
+    TestRectangle_x - line 262
+    TestRectangle_y - line 334
     TestRectangleorderofinitialization - line 402
     TestRectanglearea - line 430
     TestRectangleupdateargs - line 538
@@ -258,7 +258,7 @@ class TestRectangleheight(unittest.TestCase):
             Rectangle(1, 0)
 
 
-class TestRectanglex(unittest.TestCase):
+class TestRectangle_x(unittest.TestCase):
     """Unittests for testing initialization of Rectangle x attribute."""
 
     def test_None_x(self):
@@ -330,7 +330,7 @@ class TestRectanglex(unittest.TestCase):
             Rectangle(5, 3, -1, 0)
 
 
-class TestRectangley(unittest.TestCase):
+class TestRectangle_y(unittest.TestCase):
     """Unittests for testing initialization of Rectangle y attribute."""
 
     def test_None_y(self):
