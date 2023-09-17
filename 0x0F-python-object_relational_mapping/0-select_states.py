@@ -15,7 +15,7 @@ def liststates (username, password, database):
             port=3306,\
             user=username,\
             passwd=password,\
-            dbase=database)
+            db=database)
     cursor = dbase.cursor()
 
     # Execute the SQL query to grab all states
