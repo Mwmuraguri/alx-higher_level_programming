@@ -1,0 +1,2 @@
+// Use the jQuery selector to select the <header> element and change its text color to red
+$('header').css('color', '#FF0000');
